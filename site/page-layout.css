@@ -1,0 +1,94 @@
+body,p,h1,h2,h3,li,a,span,figure,th,tr,td{
+    font-family: 'Cormorant Garamond', serif;
+}
+body{
+    margin: 0;
+    background-color: silver;
+}
+h1,h2,h3{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.site-header{
+    text-align: center;
+    background-color: azure;
+    padding: 10px;
+    margin-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    font-style: oblique;
+    text-shadow: 1px 1px silver;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+ li{
+    list-style-type: none;
+    border:3px solid rgba(0, 255, 255, 0.144);
+    border-radius: 100px;
+    margin-bottom: 10px;
+    background-color: azure;
+    text-align:center;
+    width: 100%;
+    font-size: 30px;
+    text-shadow: 1px 1px silver;
+}
+article{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+    background-color: azure;
+    border:5px solid rgba(0, 255, 255, 0.144);
+}
+aside {
+    width: 24%;
+    box-sizing: border-box;
+    margin: 1%;
+    float: left;
+}
+.sec-header{
+    padding: 1px 20px;
+    box-sizing: border-box;
+    background-color:silver;
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+}
+.sec-footer{
+    clear: left;
+}
+.site-footer{
+    width: 100%;
+    height: 30px;
+    background-color: #f0ffff;
+    position: fixed;
+    bottom: 0;
+}
+img{
+    float: right;
+    width: 45%;
+    margin: 15px;
+}
+.first-p {
+    text-indent: 50px;
+}
+span{
+    font-weight: bold;
+}
+.aut{
+    font-style: oblique;
+    text-align: right;
+    display: block;
+}
