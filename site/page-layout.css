@@ -1,9 +1,7 @@
-body,p,h1,h2,h3,li,a,span,figure,th,tr,td{
-    font-family: 'Cormorant Garamond', serif;
-}
 body{
     margin: 0;
     background-color: silver;
+    font-family: 'Cormorant Garamond', serif;
 }
 h1,h2,h3{
     text-align: center;
